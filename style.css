@@ -183,6 +183,10 @@ p {
   #contact .socmed h6 {
     font-size: 0.8rem;
   }
+
+  /* .hero-text .jobs {
+    display: inline !important;
+  } */
 }
 
 @media screen and (max-width: 768px) {
