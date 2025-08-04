@@ -154,16 +154,8 @@ p {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-  /* .hero-text {
-    left: 0%;
-    transform: translate(10%, -50%);
-    color: white;
-  } */
-
   .content .title {
     display: inline;
-    /* align-items: center;
-  justify-content: space-between; */
   }
 
   .job-sm {
