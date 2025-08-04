@@ -152,6 +152,15 @@ p {
   display: none;
 }
 
+#contact .socmed h6 {
+  margin: 0;
+  line-height: 0;
+}
+
+#contact .socmed .d-flex {
+  align-items: center !important;
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .content .title {
@@ -164,6 +173,14 @@ p {
 
   .job-normal {
     display: none;
+  }
+
+  #contact .socmed {
+    align-items: start !important;
+  }
+
+  #contact .socmed h6 {
+    font-size: 0.8rem;
   }
 }
 
